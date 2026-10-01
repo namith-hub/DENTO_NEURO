@@ -1,4 +1,4 @@
-name: Deploy DENTO_NURO React App to GitHub Pages
+name: Deploy DENTO_NEURO React App to GitHub Pages
 
 on:
   push:
@@ -41,7 +41,7 @@ jobs:
           npm run build
         env:
           CI: false
-          PUBLIC_URL: /DENTO_NURO
+          PUBLIC_URL: /DENTO_NEURO
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
