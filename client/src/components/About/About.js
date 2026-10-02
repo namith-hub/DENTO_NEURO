@@ -118,7 +118,7 @@ const About = () => {
               Where Excellence Meets Compassion
             </h2>
             <p>
-              At Dr. Ahalya’s Dento Neuro Centre, we bring dental and neurosurgical care together under one roof, with a focus on expertise, comfort, and personalised treatment.
+              At Dr. Ahalya’s Dento Neuro Clinic, we bring dental and neurosurgical care together under one roof, with a focus on expertise, comfort, and personalised treatment.
             </p>
             <ul className="about-features">
               {[

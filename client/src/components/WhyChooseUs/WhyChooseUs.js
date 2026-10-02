@@ -59,7 +59,7 @@ const WhyChooseUs = () => (
         <h2 className="section-title why-title">Why Patients Choose<br /><span className="text-gold">Dr Ahalya's Dento Neuro Clinic</span></h2>
         <div className="gold-divider center"></div>
         <p className="section-subtitle why-sub">
-          At Dr. Ahalya’s Dento Neuro Centre, we bring dental and neurosurgical care together under one roof, with a focus on expertise, comfort, and personalised treatment.
+          At Dr. Ahalya’s Dento Neuro Clinic, we bring dental and neurosurgical care together under one roof, with a focus on expertise, comfort, and personalised treatment.
         </p>
       </div>
 

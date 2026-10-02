@@ -115,7 +115,7 @@ const ServiceDetailPage = () => {
               <div className="media-overlay"></div>
               <div className="media-badge">
                 <span>DR AHALYA'S DENTO NEURO CLINIC</span>
-                <small>Mysuru Center of Excellence</small>
+                <small>Mysuru Clinic of Excellence</small>
               </div>
             </div>
           </div>
