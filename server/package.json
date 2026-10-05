@@ -1,0 +1,15 @@
+{
+  "name": "dento-neuro-server",
+  "version": "1.0.0",
+  "description": "Backend API for Dento Neuro Clinic",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}

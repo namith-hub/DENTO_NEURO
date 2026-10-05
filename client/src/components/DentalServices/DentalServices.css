@@ -1,0 +1,255 @@
+.dental-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
+  margin-top: 3.5rem;
+}
+
+/* Service Card */
+.dental-card {
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.dental-card-img {
+  position: relative;
+  height: 180px;
+  overflow: hidden;
+}
+
+.dental-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.dental-card:hover .dental-card-img img {
+  transform: scale(1.08);
+}
+
+.dental-card-icon-wrap {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 48px;
+  height: 48px;
+  background: #241818;
+  border: 1.5px solid var(--gold);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+  transition: var(--transition);
+  z-index: 5;
+}
+
+.dental-card:hover .dental-card-icon-wrap {
+  background: var(--gold);
+  color: #1a1210;
+  border-color: var(--gold);
+  transform: scale(1.1) rotate(-5deg);
+  box-shadow: 0 8px 22px rgba(200, 162, 90, 0.45);
+}
+
+.dental-card-body {
+  padding: 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.dental-card-body h4 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--brown);
+  margin-bottom: 0.5rem;
+}
+
+.dental-card-body p {
+  font-size: 0.85rem;
+  color: var(--brown-muted);
+  line-height: 1.7;
+  flex: 1;
+}
+
+.dental-learn-more {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-head);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--gold);
+  margin-top: 1rem;
+  transition: var(--transition);
+}
+
+.dental-card:hover .dental-learn-more {
+  gap: 0.65rem;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(59,47,47,0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  animation: modalFadeIn 0.3s ease;
+}
+
+@keyframes modalFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.modal-box {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  max-width: 620px;
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 24px 80px rgba(0,0,0,0.25);
+  animation: modalSlideUp 0.4s cubic-bezier(0.4,0,0.2,1);
+}
+
+@keyframes modalSlideUp {
+  from { opacity: 0; transform: translateY(40px) scale(0.96); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 10;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(59,47,47,0.7);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+
+.modal-close:hover {
+  background: var(--brown);
+  transform: rotate(90deg);
+}
+
+.modal-img-wrap {
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+.modal-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modal-img-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(59,47,47,0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-icon-big {
+  color: var(--gold);
+  filter: drop-shadow(0 4px 12px rgba(200,162,90,0.5));
+  font-size: 3rem;
+}
+
+.modal-body {
+  padding: 2rem;
+}
+
+.modal-body h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--brown);
+  margin-bottom: 0.75rem;
+}
+
+.modal-desc {
+  font-size: 0.95rem;
+  color: var(--brown-muted);
+  line-height: 1.85;
+  margin-bottom: 1.5rem;
+}
+
+.modal-points-title {
+  font-family: var(--font-head);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.75rem;
+}
+
+.modal-points {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.modal-points li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--brown);
+  font-weight: 500;
+}
+
+.modal-points li svg { color: var(--gold); flex-shrink: 0; }
+
+.modal-cta { width: 100%; justify-content: center; }
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .dental-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .dental-grid { grid-template-columns: 1fr; }
+  .modal-points { grid-template-columns: 1fr; }
+  .modal-box { border-radius: var(--radius-md); }
+  .modal-overlay { padding: 1rem; }
+  .modal-body { padding: 1.5rem 1.25rem; }
+}
+
+@media (max-width: 480px) {
+  .dental-card-img { height: 160px; }
+  .dental-card-body { padding: 1.25rem; }
+  .modal-img-wrap { height: 170px; }
+  .modal-body h3 { font-size: 1.35rem; }
+  .modal-desc { font-size: 0.88rem; margin-bottom: 1.25rem; }
+}
+
+@media (max-width: 360px) {
+  .modal-overlay { padding: 0.5rem; }
+  .modal-body { padding: 1.1rem 1rem; }
+}
+
