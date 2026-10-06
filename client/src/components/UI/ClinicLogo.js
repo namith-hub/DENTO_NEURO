@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logoImg from '../../assets/logo.png';
+import logoImg from '../../assets/logo1.jpeg';
 
 const ClinicLogo = ({ className = 'logo-img', alt = "Dr Ahalya's Dento Neuro Clinic Logo" }) => {
   const [hasError, setHasError] = useState(false);
