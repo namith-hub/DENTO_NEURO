@@ -36,7 +36,7 @@
   right: 14px;
   width: 48px;
   height: 48px;
-  background: #241818;
+  background: #222222;
   border: 1.5px solid var(--gold);
   border-radius: 12px;
   display: flex;
@@ -50,7 +50,7 @@
 
 .dental-card:hover .dental-card-icon-wrap {
   background: var(--gold);
-  color: #1a1210;
+  color: #222222;
   border-color: var(--gold);
   transform: scale(1.1) rotate(-5deg);
   box-shadow: 0 8px 22px rgba(200, 162, 90, 0.45);

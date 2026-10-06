@@ -1,7 +1,7 @@
 .page-loader {
   position: fixed;
   inset: 0;
-  background: linear-gradient(140deg, #241616 0%, #140c0c 50%, #0d0707 100%);
+  background: linear-gradient(140deg, #222222 0%, #111111 50%, #000000 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,7 +81,7 @@
 /* Nodes on Orbit */
 .orbit-node {
   position: absolute;
-  background: #271919;
+  background: #222222;
   border: 1.5px solid var(--gold);
   border-radius: 50%;
   display: flex;

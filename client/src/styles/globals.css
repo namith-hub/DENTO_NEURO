@@ -4,20 +4,20 @@
 
 /* ── CSS Variables ─────────────────────────────────────────────── */
 :root {
-  --gold:          #C8A25A;
-  --rose-gold:     #D7A58C;
-  --ivory:         #FAF8F5;
-  --beige:         #F3ECE5;
-  --brown:         #3B2F2F;
-  --brown-light:   #5C4A3A;
-  --brown-muted:   #7A6452;
+  --gold:          #777777;
+  --rose-gold:     #999999;
+  --ivory:         #F7F7F7;
+  --beige:         #EAEAEA;
+  --brown:         #222222;
+  --brown-light:   #444444;
+  --brown-muted:   #666666;
   --white:         #ffffff;
-  --shadow-color:  rgba(200, 162, 90, 0.15);
-  --shadow-deep:   rgba(59, 47, 47, 0.12);
+  --shadow-color:  rgba(100, 100, 100, 0.15);
+  --shadow-deep:   rgba(0, 0, 0, 0.12);
 
-  --grad-gold:     linear-gradient(135deg, #C8A25A 0%, #D7A58C 100%);
-  --grad-hero:     linear-gradient(135deg, #3B2F2F 0%, #5C4A3A 40%, #7A6452 100%);
-  --grad-section:  linear-gradient(160deg, #FAF8F5 0%, #F3ECE5 100%);
+  --grad-gold:     linear-gradient(135deg, #777777 0%, #999999 100%);
+  --grad-hero:     linear-gradient(135deg, #111111 0%, #333333 40%, #555555 100%);
+  --grad-section:  linear-gradient(160deg, #F7F7F7 0%, #EAEAEA 100%);
 
   --radius-sm:     12px;
   --radius-md:     20px;
@@ -165,7 +165,7 @@ p  { font-size: 1rem; font-weight: 400; color: var(--brown-muted); }
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, #D7A58C 0%, #C8A25A 100%);
+  background: linear-gradient(135deg, #999999 0%, #777777 100%);
   opacity: 0;
   transition: var(--transition);
 }

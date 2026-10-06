@@ -483,7 +483,7 @@ export const neuroServicesData = [
     title: 'Minimal Invasive Spine Surgeries',
     short: 'Advanced keyhole techniques for faster recovery and minimal tissue trauma.',
     category: 'Neurosurgery',
-    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1000&q=80',
+    image: 'https://images.unsplash.com/photo-1551076805-e18690c5e561?w=1000&q=80',
     description: 'Minimally invasive spine surgery (MISS) utilizes specialized instruments, tubular retractors, and micro-endoscopes to treat spinal conditions through tiny incisions with minimal blood loss and rapid recovery.',
     longDescription: 'Traditional open spine surgery often requires extensive muscle dissection. With advanced minimally invasive spine surgery, Dr. Puneeth S (MCh PGIMER) targets herniated discs, spinal stenosis, and instability through keyhole incisions, preserving healthy spinal tissues and enabling faster return to daily activities.',
     highlights: [

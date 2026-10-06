@@ -16,7 +16,7 @@
   inset: 0;
   z-index: 0;
   overflow: hidden;
-  background: #1a1210;
+  background: #222222;
 }
 
 .hero-video-bg {
@@ -79,7 +79,7 @@
 
 .hero-scroll-cue:hover {
   background: var(--gold);
-  color: #1a1210;
+  color: #222222;
   border-color: var(--gold);
   transform: translateY(-2px);
 }

@@ -78,12 +78,12 @@ const Footer = () => (
           {[
             ['Mon – Sat (Morning)', '10:00 AM – 2:00 PM'],
             ['Mon – Sat (Evening)', '4:00 PM – 8:00 PM'],
-            ['Sunday',              'Holiday'],
+            ['Sunday',              'On appointments'],
             ['Appointments',        '+91 6360521761'],
           ].map(([day, time]) => (
             <div key={day} className="footer-hour-row">
               <span>{day}</span>
-              <span className={`ft${time === 'Holiday' ? ' closed' : time === '+91 6360521761' ? ' emerg' : ''}`}>{time}</span>
+              <span className={`ft${time === 'On appointments' ? ' closed' : time === '+91 6360521761' ? ' emerg' : ''}`}>{time}</span>
             </div>
           ))}
         </div>

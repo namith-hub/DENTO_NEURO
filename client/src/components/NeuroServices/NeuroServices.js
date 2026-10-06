@@ -41,7 +41,7 @@ const categories = [
     id: 'minimal-invasive-spine',
     title: 'Minimal Invasive Spine Surgeries',
     icon: <GiSpinalCoil size={22}/>,
-    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1551076805-e18690c5e561?w=600&q=80',
     services: [
       { name: 'Microdiscectomy', desc: 'Precision keyhole surgery to remove herniated disc fragments pressing on spinal nerves with minimal tissue disruption.' },
       { name: 'Endoscopic Spine Surgery', desc: 'Ultra-minimally invasive spine surgery using high-definition endoscopes for rapid recovery and minimal pain.' },

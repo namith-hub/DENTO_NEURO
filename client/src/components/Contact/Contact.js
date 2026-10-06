@@ -50,7 +50,7 @@ const Contact = () => (
               <div className="hours-list">
                 <div className="hours-row"><span>Mon – Sat (Morning)</span><span className="hours-time">10:00 AM – 2:00 PM</span></div>
                 <div className="hours-row"><span>Mon – Sat (Evening)</span><span className="hours-time">4:00 PM – 8:00 PM</span></div>
-                <div className="hours-row"><span>Sunday</span><span className="hours-time closed">Holiday</span></div>
+                <div className="hours-row"><span>Sunday</span><span className="hours-time closed">On appointments</span></div>
               </div>
             </div>
           </div>
